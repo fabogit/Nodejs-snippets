@@ -61,3 +61,45 @@ the content into uppercase, and writes it to `newFile.txt`. The `Uppercase` clas
 into uppercase with `chunk.toString().toUpperCase()` before pushing them to the write
 stream. The callback function, `callback()`, is invoked to indicate the completion of the current
 chunk’s processing, allowing the stream to handle the next chunk and maintain a regulated flow of data.
+
+## Using map and filter functions
+
+Run `node map-stream.js` and `node filter-stream.js`
+
+More recent versions of Node.js, later than version 16.4.0, provide Experimental array-like methods
+for readable streams. These methods can be used similarly to the array methods – for example, the
+`Readable.map()` and `Readable.filter()` methods provide similar functionality to
+`Array.prototype.map()` and `Array.prototype.filter()`.
+
+The `map()` method can be used to map over the stream. For every chunk in the stream, the specified
+function will be called.
+
+The `Readable.filter()` method can be used to filter a readable stream.
+
+These are two recent function additions that provide array-like methods on readable streams. Many
+more array-like methods are now available on streams:
+
+- `.drop()`
+
+- `.every()`
+
+- `.filter()`
+
+- `.find()`
+
+- `.flatMap()`
+
+- `.forEach()`
+
+- `.map()`
+
+- `.reduce()`
+
+- `.some()`
+
+- `.take()`
+
+- `.toArray()`
+
+More information, including the usage and parameters of these methods, can be found in the Node.js
+Stream API documentation: <https://nodejs.org/docs/latest-v22.x/api/stream.html>.
