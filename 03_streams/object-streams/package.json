@@ -1,0 +1,21 @@
+{
+  "author": "fabogit",
+  "dependencies": {
+    "ndjson": "^2.0.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/ndjson": "^2.0.4"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "object-stream.js",
+  "name": "object-streams",
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "start": "node object-stream.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
