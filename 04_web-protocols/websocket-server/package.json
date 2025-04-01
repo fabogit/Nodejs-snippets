@@ -1,0 +1,20 @@
+{
+  "author": "",
+  "dependencies": {
+    "ws": "^8.18.1"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "websocket-server",
+  "packageManager": "pnpm@10.7.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}
