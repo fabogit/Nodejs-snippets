@@ -1,0 +1,35 @@
+{
+  "author": "Forename Surname",
+  "bugs": {
+    "url": "https://github.com/username/temperature-converter/issues"
+  },
+  "description": "Converts temperatures between Fahrenheit and Celsius.",
+  "devDependencies": {
+    "semistandard": "17.0.0"
+  },
+  "files": [
+    "lib/",
+    "docs/",
+    "README.md"
+  ],
+  "homepage": "https://github.com/username/temperature-converter#readme",
+  "keywords": [
+    "temperature",
+    "converter",
+    "utility"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@useyournpmusernamehere/temperature-converter",
+  "packageManager": "pnpm@10.7.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/temperature-converter.git"
+  },
+  "scripts": {
+    "lint": "semistandard *.js",
+    "prepublishOnly": "npm run lint",
+    "test": "node test.js"
+  },
+  "version": "1.0.0"
+}
