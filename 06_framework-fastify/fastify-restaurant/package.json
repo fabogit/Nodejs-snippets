@@ -1,0 +1,22 @@
+{
+  "author": "fabogit",
+  "dependencies": {
+    "@fastify/env": "^5.0.2",
+    "@fastify/mongodb": "^9.0.2",
+    "fastify": "^5.2.2",
+    "fastify-plugin": "^5.0.1"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "server.js",
+  "name": "fastify-restaurant",
+  "packageManager": "pnpm@10.7.0",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "node --watch server.js",
+    "test": "node --test test/app.test.js"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
