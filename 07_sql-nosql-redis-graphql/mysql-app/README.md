@@ -19,7 +19,7 @@ up to date, allowing us to leverage newer features and capabilities such as the 
 In a terminal window, type the following command to start a MySQL database listening on port `3306`:
 
 ```Bash
-$ docker run --publish 3306:3306 --name node-mysql --env MYSQL_ROOT_PASSWORD=PASSWORD --detach mysql:8
+$ docker run --publish 3306:3306 --name node-mysql --env MYSQL_ROOT_PASSWORD=PASSWORD --detach mysql:9
 ```
 
 **Important note:**

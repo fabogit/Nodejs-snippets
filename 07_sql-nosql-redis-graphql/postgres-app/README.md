@@ -18,7 +18,7 @@ We will be using the Docker official PostgreSQL image from https://hub.docker.co
 In a terminal window, type the following to provision a postgres container:
 
 ```Bash
-$ docker run --publish 5432:5432 --name node-postgres-latest --env POSTGRES_PASSWORD=PASSWORD --detach postgres:16
+$ docker run --publish 5432:5432 --name node-postgres-latest --env POSTGRES_PASSWORD=PASSWORD --detach postgres:17
 ```
 
 Run `tasks.js`, passing a task as a command-line argument. The task will be inserted into
