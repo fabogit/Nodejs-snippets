@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.14.1"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "postgres-app",
+  "packageManager": "pnpm@10.7.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
