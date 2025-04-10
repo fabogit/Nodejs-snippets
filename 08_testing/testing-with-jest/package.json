@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "testing-with-jest",
+  "packageManager": "pnpm@10.7.1",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}
