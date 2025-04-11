@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "puppeteer": "^24.6.1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "using-puppeteer",
+  "packageManager": "pnpm@10.8.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
