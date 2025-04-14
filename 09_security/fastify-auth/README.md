@@ -81,3 +81,19 @@ Clicking Logout sends an HTTP `GET` request to the `/auth/logout` endpoint. This
 `req.session` to null, which ends the session and removes session data from the session store. Our
 browser may continue to store and send the invalid session cookie until it expires, but with no valid
 match in the session store, the server will ignore the session and consider the user unauthenticated.
+
+## Secure session cookies
+
+Session cookies can be marked with a `Secure` attribute. The `Secure` attribute forces the browser
+to not use HTTP to send cookies back to the server. This is to avoid **man-in-the-middle (MITM)**
+attacks. In production applications, HTTPS and secure cookies should be used. But in development,
+it’s easier to use HTTP.
+
+It’s typical for a production environment to apply SSL encryption at the load balancer layer. A load
+balancer is a technology in an application architecture that’s responsible for boosting the efficiency of
+the application by distributing a set of tasks over a set of resources – for example, distributing login
+requests to servers.
+
+We can configure our Fastify server to communicate with a load balancer over HTTP but still support
+Secure cookies using the appropriate cookie settings. In production, the `Secure` option for cookies
+should be set to true.
