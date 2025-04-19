@@ -1,0 +1,18 @@
+{
+  "author": "fabogit",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "express-input",
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "start": "node server.js",
+    "start-fix": "node server-fixed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
