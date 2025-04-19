@@ -1,18 +1,17 @@
 {
   "author": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "ajv": "^8.17.1"
   },
   "description": "",
   "keywords": [],
   "license": "ISC",
   "main": "index.js",
-  "name": "express-input",
+  "name": "json-pollution",
   "packageManager": "pnpm@10.8.1",
   "scripts": {
-    "start": "node server.js",
-    "start-fix": "node server-fixed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "version": "1.0.0"
 }
