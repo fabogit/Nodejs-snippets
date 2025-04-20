@@ -75,27 +75,27 @@ that is like the following:
 
 ```Json
 {
-  "fields": {},
-  "files": {
-    "userfile": [
-      {
-        "size": 334367,
-        "filepath": "/file-upload/uploads/8bcdb0be88a49a8e1aec95e00.jpg",
-        "newFilename": "8bcdb0be88a49a8e1aec95e00.jpg",
-        "mimetype": "image/jpeg",
-        "mtime": "2024-04-15T02:57:23.589Z",
-        "originalFilename": "photo.jpg"
-      },
-      {
-        "size": 21,
-        "filepath": "/file-upload/uploads/8bcdb0be88a49a8e1aec95e01.txt",
-        "newFilename": "8bcdb0be88a49a8e1aec95e01.txt",
-        "mimetype": "text/plain",
-        "mtime": "2024-04-15T02:57:23.589Z",
-        "originalFilename": "file.txt"
-      }
-    ]
-  }
+    "fields": {},
+    "files": {
+        "userfile": [
+            {
+                "size": 334367,
+                "filepath": "/file-upload/uploads/8bcdb0be88a49a8e1aec95e00.jpg",
+                "newFilename": "8bcdb0be88a49a8e1aec95e00.jpg",
+                "mimetype": "image/jpeg",
+                "mtime": "2024-04-15T02:57:23.589Z",
+                "originalFilename": "photo.jpg"
+            },
+            {
+                "size": 21,
+                "filepath": "/file-upload/uploads/8bcdb0be88a49a8e1aec95e01.txt",
+                "newFilename": "8bcdb0be88a49a8e1aec95e01.txt",
+                "mimetype": "text/plain",
+                "mtime": "2024-04-15T02:57:23.589Z",
+                "originalFilename": "file.txt"
+            }
+        ]
+    }
 }
 ```
 
@@ -117,19 +117,23 @@ You will receive a JSON response containing all your form data, like the followi
 
 ```Json
 {
-  "fields": { "user" : ["User"] },
-  "files": {
-    "userfile": [
-      {
-        "size": 21,
-        "filepath": "/file-upload/uploads/659d0cc8a8898fce93231aa00.txt",
-        "newFilename": "659d0cc8a8898fce93231aa00.txt",
-        "mimetype": "text/plain",
-        "mtime": "2024-04-15T02:59:22.633Z",
-        "originalFilename": "file.txt"
-      }
-    ]
-  }
+    "fields": {
+        "user": [
+            "User"
+        ]
+    },
+    "files": {
+        "userfile": [
+            {
+                "size": 21,
+                "filepath": "/file-upload/uploads/659d0cc8a8898fce93231aa00.txt",
+                "newFilename": "659d0cc8a8898fce93231aa00.txt",
+                "mimetype": "text/plain",
+                "mtime": "2024-04-15T02:59:22.633Z",
+                "originalFilename": "file.txt"
+            }
+        ]
+    }
 }
 ```
 
