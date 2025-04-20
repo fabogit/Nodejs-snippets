@@ -229,11 +229,13 @@ Let’s add a `prepublishOnly` script to our module. Our `prepublishOnly` script
 our lint script for now. Add a prepublishOnly script as follows:
 
 ```Json
-  "scripts": {
-    "prepublishOnly": "npm run lint",
-    "lint": "semistandard \*.js",
-    "test": "node test.js"
-  }
+{
+    "scripts": {
+        "prepublishOnly": "npm run lint",
+        "lint": "semistandard \*.js",
+        "test": "node test.js"
+    }
+}
 ```
 
 Typically, module authors will include rerunning their test suite in their `prepublishOnly` scripts:

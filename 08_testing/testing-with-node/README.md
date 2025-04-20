@@ -1,5 +1,6 @@
-# Testing enables you to identify bugs in your code quickly and efficiently. Test cases should be written
+# Testing
 
+Testing enables you to identify bugs in your code quickly and efficiently. Test cases should be written
 to verify that each piece of code yields the expected output or results. The added benefit is that these
 tests can act as a form of documentation for the expected behaviors of your applications.
 

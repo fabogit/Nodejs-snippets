@@ -547,7 +547,7 @@ to evolve over time without necessitating changes to your routes’ configuratio
 This pattern aligns with **aspect-oriented programming**, as it dynamically introduces a feature through
 a straightforward Boolean configuration.
 
-## IImplementing business logic using hooks
+## Implementing business logic using hooks
 
 The APIs for the fantasy restaurant have a specific goal: to serve our restaurant’s needs. In the Adding
 routes recipe, we examined the general flow but didn’t delve into details, such as the following:
