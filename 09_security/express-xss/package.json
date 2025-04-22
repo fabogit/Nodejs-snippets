@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "express": "^5.1.0",
+    "he": "^1.2.0"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "express-xss",
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
