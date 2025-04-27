@@ -1,0 +1,21 @@
+{
+  "author": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "0x": "^5.8.0",
+    "autocannon": "^8.0.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "optimize-async",
+  "packageManager": "pnpm@10.9.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
