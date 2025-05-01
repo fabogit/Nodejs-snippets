@@ -1,0 +1,25 @@
+{
+  "author": "",
+  "dependencies": {
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/sensible": "^6.0.0",
+    "fastify": "^5.0.0",
+    "fastify-cli": "^7.4.0",
+    "fastify-plugin": "^5.0.0"
+  },
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "devDependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "app.js",
+  "name": "fastify-microservice",
+  "scripts": {
+    "dev": "fastify start -w -l info -P app.js",
+    "start": "fastify start -l info app.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "version": "1.0.0"
+}
