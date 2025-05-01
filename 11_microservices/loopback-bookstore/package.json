@@ -1,0 +1,69 @@
+{
+  "author": "fabogit <fabo.dev.email@gmail.com>",
+  "dependencies": {
+    "@loopback/boot": "^7.0.13",
+    "@loopback/core": "^6.1.10",
+    "@loopback/repository": "^7.0.13",
+    "@loopback/rest": "^14.0.13",
+    "@loopback/rest-explorer": "^7.0.13",
+    "@loopback/service-proxy": "^7.0.13",
+    "tslib": "^2.0.0"
+  },
+  "description": "loopback-bookstore",
+  "devDependencies": {
+    "@loopback/build": "^11.0.11",
+    "@loopback/eslint-config": "^15.0.5",
+    "@loopback/testlab": "^7.0.12",
+    "@types/node": "^16.18.126",
+    "eslint": "^8.57.1",
+    "source-map-support": "^0.5.21",
+    "typescript": "~5.2.2"
+  },
+  "engines": {
+    "node": "18 || 20 || 22"
+  },
+  "files": [
+    "README.md",
+    "dist",
+    "src",
+    "!*/__tests__"
+  ],
+  "keywords": [
+    "loopback-application",
+    "loopback"
+  ],
+  "license": "",
+  "main": "dist/index.js",
+  "name": "loopback-bookstore",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "lb-tsc",
+    "build:watch": "lb-tsc --watch",
+    "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
+    "docker:build": "docker build -t loopback-bookstore .",
+    "docker:run": "docker run -p 3000:3000 -d loopback-bookstore",
+    "eslint": "lb-eslint --report-unused-disable-directives .",
+    "eslint:fix": "npm run eslint -- --fix",
+    "lint": "npm run eslint && npm run prettier:check",
+    "lint:fix": "npm run eslint:fix && npm run prettier:fix",
+    "migrate": "node ./dist/migrate",
+    "openapi-spec": "node ./dist/openapi-spec",
+    "posttest": "npm run lint",
+    "premigrate": "npm run build",
+    "preopenapi-spec": "npm run build",
+    "prestart": "npm run rebuild",
+    "pretest": "npm run rebuild",
+    "prettier:check": "npm run prettier:cli -- -l",
+    "prettier:cli": "lb-prettier \"**/*.ts\" \"**/*.js\"",
+    "prettier:fix": "npm run prettier:cli -- --write",
+    "rebuild": "npm run clean && npm run build",
+    "start": "node -r source-map-support/register .",
+    "test": "lb-mocha --allow-console-logs \"dist/__tests__\"",
+    "test:dev": "lb-mocha --allow-console-logs dist/__tests__/**/*.js && npm run posttest"
+  },
+  "types": "dist/index.d.ts",
+  "version": "0.0.1"
+}
