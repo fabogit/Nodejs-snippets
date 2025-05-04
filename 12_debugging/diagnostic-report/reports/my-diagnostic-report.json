@@ -1,0 +1,659 @@
+
+{
+  "header": {
+    "reportVersion": 5,
+    "event": "Exception",
+    "trigger": "Exception",
+    "filename": "my-diagnostic-report.json",
+    "dumpEventTime": "2025-05-04T22:46:05Z",
+    "dumpEventTimeStamp": "1746391565305",
+    "processId": 814580,
+    "threadId": 0,
+    "cwd": "/diagnostic-report",
+    "commandLine": [
+      "node",
+      "--report-uncaught-exception",
+      "server.js"
+    ],
+    "nodejsVersion": "v22.14.0",
+    "glibcVersionRuntime": "2.41",
+    "glibcVersionCompiler": "2.41",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "linux",
+    "componentVersions": {
+      "acorn": "8.14.0",
+      "ada": "2.9.2",
+      "amaro": "0.3.0",
+      "ares": "1.34.4",
+      "brotli": "1.1.0",
+      "cjs_module_lexer": "1.4.1",
+      "cldr": "46.0",
+      "icu": "76.1",
+      "llhttp": "9.2.1",
+      "modules": "127",
+      "napi": "10",
+      "nbytes": "0.1.1",
+      "ncrypto": "0.0.1",
+      "nghttp2": "1.64.0",
+      "node": "22.14.0",
+      "openssl": "3.5.0",
+      "simdjson": "3.10.1",
+      "simdutf": "6.0.3",
+      "sqlite": "3.47.2",
+      "tz": "2024b",
+      "undici": "6.21.1",
+      "unicode": "16.0",
+      "uv": "1.51.0",
+      "uvwasi": "0.0.21",
+      "v8": "12.4.254.21-node.22",
+      "zlib": "1.3.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Jod",
+      "headersUrl": "https://nodejs.org/download/release/v22.14.0/node-v22.14.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v22.14.0/node-v22.14.0.tar.gz"
+    },
+    "osName": "Linux",
+    "osRelease": "6.14.4-zen1-1-zen",
+    "osVersion": "#1 ZEN SMP PREEMPT_DYNAMIC Sat, 26 Apr 2025 00:06:55 +0000",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2685320,
+        "nice": 384790,
+        "sys": 3195700,
+        "idle": 48264260,
+        "irq": 9170
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 1728180,
+        "nice": 392350,
+        "sys": 1551250,
+        "idle": 52090160,
+        "irq": 6910
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2804510,
+        "nice": 413920,
+        "sys": 2570970,
+        "idle": 49335640,
+        "irq": 12450
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1400,
+        "user": 1744920,
+        "nice": 406820,
+        "sys": 1538180,
+        "idle": 53474970,
+        "irq": 4220
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2808890,
+        "nice": 416080,
+        "sys": 2526350,
+        "idle": 50425050,
+        "irq": 6450
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1400,
+        "user": 1665790,
+        "nice": 428040,
+        "sys": 1450640,
+        "idle": 53830710,
+        "irq": 8830
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1396,
+        "user": 2798820,
+        "nice": 430100,
+        "sys": 2497270,
+        "idle": 50629960,
+        "irq": 6810
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1400,
+        "user": 1605210,
+        "nice": 406970,
+        "sys": 1383750,
+        "idle": 54053760,
+        "irq": 3820
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 3393360,
+        "nice": 316800,
+        "sys": 2923210,
+        "idle": 49122540,
+        "irq": 6870
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2542940,
+        "nice": 291450,
+        "sys": 2034770,
+        "idle": 51784770,
+        "irq": 3710
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2921690,
+        "nice": 391510,
+        "sys": 2769420,
+        "idle": 49530050,
+        "irq": 6600
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1400,
+        "user": 1826250,
+        "nice": 361700,
+        "sys": 1521880,
+        "idle": 53492960,
+        "irq": 3560
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2761040,
+        "nice": 420820,
+        "sys": 2785000,
+        "idle": 49916530,
+        "irq": 6390
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 1655670,
+        "nice": 384000,
+        "sys": 1607380,
+        "idle": 53594430,
+        "irq": 4120
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 2797750,
+        "nice": 428940,
+        "sys": 2715130,
+        "idle": 50026190,
+        "irq": 7710
+      },
+      {
+        "model": "AMD Ryzen 7 4800H with Radeon Graphics",
+        "speed": 1397,
+        "user": 1636370,
+        "nice": 395790,
+        "sys": 1445020,
+        "idle": 53877510,
+        "irq": 5910
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "4c:03:4f:6a:f9:cd",
+        "address": "192.168.1.26",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "br-8128675e4bf4",
+        "internal": false,
+        "mac": "72:0b:4c:f4:ac:32",
+        "address": "192.168.49.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "4c:03:4f:6a:f9:cd",
+        "address": "2a01:e11:5401:760:b2be:69c1:7634:2d30",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "wlp1s0",
+        "internal": false,
+        "mac": "4c:03:4f:6a:f9:cd",
+        "address": "fe80::676f:a9b6:c14a:2762",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 3
+      },
+      {
+        "name": "br-8128675e4bf4",
+        "internal": false,
+        "mac": "72:0b:4c:f4:ac:32",
+        "address": "fe80::700b:4cff:fef4:ac32",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "vetha35c11a",
+        "internal": false,
+        "mac": "ba:ef:63:d1:a6:55",
+        "address": "fe80::b8ef:63ff:fed1:a655",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      }
+    ],
+    "host": "Garuda"
+  },
+  "javascriptStack": {
+    "message": "TypeError [ERR_INVALID_PROTOCOL]: Protocol \"hello:\" not supported. Expected \"http:\"",
+    "stack": [
+      "at new ClientRequest (node:_http_client:190:11)",
+      "at request (node:http:102:10)",
+      "at Object.get (node:http:113:15)",
+      "at Object.<anonymous> (/diagnostic-report/server.js:8:6)",
+      "at Module._compile (node:internal/modules/cjs/loader:1554:14)",
+      "at Object..js (node:internal/modules/cjs/loader:1706:10)",
+      "at Module.load (node:internal/modules/cjs/loader:1289:32)",
+      "at Function._load (node:internal/modules/cjs/loader:1108:12)",
+      "at TracingChannel.traceSync (node:diagnostics_channel:322:14)"
+    ],
+    "errorProperties": {
+      "code": "ERR_INVALID_PROTOCOL"
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 5537792,
+    "executableMemory": 262144,
+    "totalCommittedMemory": 5775360,
+    "availableMemory": 4341677152,
+    "totalGlobalHandlesMemory": 8192,
+    "usedGlobalHandlesMemory": 2304,
+    "usedMemory": 4532616,
+    "memoryLimit": 4345298944,
+    "mallocedMemory": 163960,
+    "externalMemory": 1604402,
+    "peakMallocedMemory": 139704,
+    "nativeContextCount": 1,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 794624,
+        "capacity": 1030912,
+        "used": 532888,
+        "available": 498024
+      },
+      "old_space": {
+        "memorySize": 2891776,
+        "committedMemory": 3145728,
+        "capacity": 2838232,
+        "used": 2837584,
+        "available": 648
+      },
+      "code_space": {
+        "memorySize": 262144,
+        "committedMemory": 253952,
+        "capacity": 245728,
+        "used": 28736,
+        "available": 216992
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_space": {
+        "memorySize": 1064960,
+        "committedMemory": 1310720,
+        "capacity": 1040672,
+        "used": 871248,
+        "available": 169424
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1030912,
+        "used": 0,
+        "available": 1030912
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "trusted_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00006008a845e20e",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x00006008a8461758",
+      "symbol": "node::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x00006008a8461cc8",
+      "symbol": "node::TriggerNodeReport(node::Environment*, char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x00006008a8178c6f",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x00006008a83a5df4",
+      "symbol": "node::errors::TriggerUncaughtException(v8::Isolate*, v8::Local<v8::Value>, v8::Local<v8::Message>, bool) [node]"
+    },
+    {
+      "pc": "0x00006008a87c3663",
+      "symbol": "v8::internal::MessageHandler::ReportMessageNoExceptions(v8::internal::Isolate*, v8::internal::MessageLocation const*, v8::internal::Handle<v8::internal::Object>, v8::Local<v8::Value>) [node]"
+    },
+    {
+      "pc": "0x00006008a87c38a3",
+      "symbol": "v8::internal::MessageHandler::ReportMessage(v8::internal::Isolate*, v8::internal::MessageLocation const*, v8::internal::Handle<v8::internal::JSMessageObject>) [node]"
+    },
+    {
+      "pc": "0x00006008a87ad31e",
+      "symbol": "v8::internal::Isolate::ReportPendingMessages(bool) [node]"
+    },
+    {
+      "pc": "0x00006008a8791c74",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x00006008a8792afb",
+      "symbol": "v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*) [node]"
+    },
+    {
+      "pc": "0x00006008a8642d48",
+      "symbol": "v8::Object::CallAsFunction(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*) [node]"
+    },
+    {
+      "pc": "0x00006008a8375b0d",
+      "symbol": "node::builtins::BuiltinLoader::CompileAndCall(v8::Local<v8::Context>, char const*, node::Realm*) [node]"
+    },
+    {
+      "pc": "0x00006008a844b0ff",
+      "symbol": "node::Realm::ExecuteBootstrapper(char const*) [node]"
+    },
+    {
+      "pc": "0x00006008a8343334",
+      "symbol": " [node]"
+    },
+    {
+      "pc": "0x00006008a83450d5",
+      "symbol": "node::StartExecution(node::Environment*, std::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>) [node]"
+    },
+    {
+      "pc": "0x00006008a828987a",
+      "symbol": "node::LoadEnvironment(node::Environment*, std::function<v8::MaybeLocal<v8::Value> (node::StartExecutionCallbackInfo const&)>, std::function<void (node::Environment*, v8::Local<v8::Value>, v8::Local<v8::Value>)>) [node]"
+    },
+    {
+      "pc": "0x00006008a83f9256",
+      "symbol": "node::NodeMainInstance::Run(node::ExitCode*, node::Environment*) [node]"
+    },
+    {
+      "pc": "0x00006008a83f981e",
+      "symbol": "node::NodeMainInstance::Run() [node]"
+    },
+    {
+      "pc": "0x00006008a834c754",
+      "symbol": "node::Start(int, char**) [node]"
+    },
+    {
+      "pc": "0x000077db854376b5",
+      "symbol": " [/usr/lib/libc.so.6]"
+    },
+    {
+      "pc": "0x000077db85437769",
+      "symbol": "__libc_start_main [/usr/lib/libc.so.6]"
+    },
+    {
+      "pc": "0x00006008a8281415",
+      "symbol": "_start [node]"
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 15785865216,
+    "total_memory": 31446233088,
+    "rss": 52215808,
+    "constrained_memory": 18446744073709551615,
+    "available_memory": 15785865216,
+    "userCpuSeconds": 0.064774,
+    "kernelCpuSeconds": 0.034349,
+    "cpuConsumptionPercent": 9.9123,
+    "userCpuConsumptionPercent": 6.4774,
+    "kernelCpuConsumptionPercent": 3.4349,
+    "maxRss": 52215808,
+    "pageFaults": {
+      "IORequired": 4,
+      "IONotRequired": 3375
+    },
+    "fsActivity": {
+      "reads": 6024,
+      "writes": 152
+    }
+  },
+  "uvthreadResourceUsage": {
+    "userCpuSeconds": 0.064322,
+    "kernelCpuSeconds": 0.03411,
+    "cpuConsumptionPercent": 9.8432,
+    "userCpuConsumptionPercent": 6.4322,
+    "kernelCpuConsumptionPercent": 3.411,
+    "fsActivity": {
+      "reads": 6024,
+      "writes": 152
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bda93ee0"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008ab2563c0"
+    },
+    {
+      "type": "timer",
+      "is_active": false,
+      "is_referenced": false,
+      "address": "0x00006008bdb49360",
+      "repeat": 0,
+      "firesInMsFromNow": -58595694,
+      "expired": true
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bdb493f8"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00006008bdb49470"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bdb494e8"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bdb49560"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bdb495d8"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x00006008bdb40a28",
+      "width": 203,
+      "height": 25,
+      "fd": 20,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00006008bdb0a690",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "loop",
+      "is_active": false,
+      "address": "0x000077db862e3200",
+      "loopIdleTimeSeconds": 0
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {},
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "data_seg_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": "unlimited"
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 1048576,
+      "hard": 1048576
+    },
+    "virtual_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "linux-vdso.so.1",
+    "/usr/lib/libz.so.1",
+    "/usr/lib/libuv.so.1",
+    "/usr/lib/libbrotlidec.so.1",
+    "/usr/lib/libbrotlienc.so.1",
+    "/usr/lib/libcares.so.2",
+    "/usr/lib/libnghttp2.so.14",
+    "/usr/lib/libcrypto.so.3",
+    "/usr/lib/libssl.so.3",
+    "/usr/lib/libicui18n.so.76",
+    "/usr/lib/libicuuc.so.76",
+    "/usr/lib/libstdc++.so.6",
+    "/usr/lib/libm.so.6",
+    "/usr/lib/libgcc_s.so.1",
+    "/usr/lib/libc.so.6",
+    "/lib64/ld-linux-x86-64.so.2",
+    "/usr/lib/libbrotlicommon.so.1",
+    "/usr/lib/libicudata.so.76"
+  ]
+}
