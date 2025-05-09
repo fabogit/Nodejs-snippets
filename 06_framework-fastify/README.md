@@ -13,6 +13,26 @@ while ensuring outstanding application performance. It closely adheres to web st
 compatibility and reliability. Moreover, it boasts an impressive degree of extensibility, enabling you
 to customize your server to align precisely with your unique requirements.
 
+We will explore Fastify through the following learning path:
+
+- Creating an API starter using Fastify
+
+- Splitting the code into small plugins
+
+- Adding routes
+
+- Implementing authentication with hooks
+
+- Breaking the encapsulation using hooks
+
+- Implementing the business logic
+
+- Validating the input data
+
+- Enhancing application performance with serialization
+
+- Configuring and testing a Fastify application
+
 Fastify (<https://fastify.dev/>) is a Node.js web framework for constructing web applications.
 It facilitates the development of an HTTP server and the creation of your API in a straightforward,
 efficient, scalable, and secure manner. The first Fastify’s stable release dates back to 2018. Since then,

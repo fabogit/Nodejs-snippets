@@ -1,16 +1,16 @@
 {
-  "name": "debugging-with-chrome",
-  "version": "1.0.0",
+  "author": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
   "description": "",
+  "keywords": [],
+  "license": "ISC",
   "main": "index.js",
+  "name": "debugging-with-chrome",
+  "packageManager": "pnpm@10.10.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0",
-  "dependencies": {
-    "express": "^5.1.0"
-  }
+  "version": "1.0.0"
 }

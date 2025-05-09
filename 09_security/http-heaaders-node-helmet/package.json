@@ -11,8 +11,8 @@
   "name": "express-helmet",
   "packageManager": "pnpm@10.8.1",
   "scripts": {
-    "start-http": "node --watch node-headers.js",
     "start-helmet": "node --watch express-helmet.js",
+    "start-http": "node --watch node-headers.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "version": "1.0.0"

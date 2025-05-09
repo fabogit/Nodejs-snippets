@@ -1,4 +1,12 @@
-# How Node.js works
+# Introducing the Node.js event loop
+
+The Node.js event loop is a fundamental concept in Node.js that enables it to perform asynchronous
+and non-blocking operations efficiently. It’s a mechanism that’s responsible for managing the execution
+of code in an event-driven environment. Understanding the Node.js event loop is crucial for building
+scalable and responsive applications, especially when dealing with input/output-bound tasks such
+as reading files, making network requests, or handling multiple client connections simultaneously.
+
+## How Node.js works
 
 Node.js operates in a single-threaded environment, meaning it uses a single main thread of execution
 for your JavaScript code. However, Node.js can still handle many concurrent operations by leveraging

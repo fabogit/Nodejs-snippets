@@ -18,3 +18,17 @@ and performance tools can help us determine the starting point. For instance, a 
 a specific function responsible for causing the bottleneck. After making the necessary optimizations,
 the changes must be verified by rerunning the initial baseline test. This allows us to have numerical
 evidence supporting whether the optimization has improved the application’s performance.
+
+Here we will cover the following recipes:
+
+- Benchmarking HTTP requests
+
+- Interpreting flame graphs
+
+- Detecting memory leaks
+
+- Optimizing synchronous functions
+
+- Optimizing asynchronous functions
+
+- Working with worker threads

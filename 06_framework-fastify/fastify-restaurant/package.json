@@ -1,5 +1,5 @@
 {
-  "author": "fabogit",
+  "author": "",
   "dependencies": {
     "@fastify/env": "^5.0.2",
     "@fastify/mongodb": "^9.0.2",
